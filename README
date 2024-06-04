@@ -1,25 +1,33 @@
-**Dementia Wandering Patterns Analysis**
-This repository contains the code for a research paper that addresses the intricate challenge of dementia-related wandering using advanced techniques.
+# Dementia Wandering Patterns Analysis
 
-Overview
-With the aging of the global population, dementia has emerged as a significant health concern, particularly among the elderly. This degenerative brain disorder leads to cognitive decline, encompassing memory loss, impaired communication skills, reduced ability to perform routine tasks, and shifts in personality and mood.
+This repository contains the code for a research paper that addresses the intricate challenge of dementia-related wandering using advanced techniques. 
+
+## Overview
+
+With the aging of the global population, dementia has emerged as a significant health concern, particularly among the elderly. This degenerative brain disorder leads to cognitive decline, encompassing memory loss, impaired communication skills, reduced ability to perform routine tasks, and shifts in personality and mood. 
 
 While dementia lacks a definitive cure, accurate diagnosis and suitable treatment can greatly enhance the quality of life for those affected. Wandering behavior is common in individuals with dementia, and a link between wandering patterns and the disease’s severity has been established.
 
-Methodology
+## Methodology
+
 Our work utilizes data imputation methods and feature extraction via Discrete Wavelet Transformation on an extensive dataset. These methodologies are coupled with established machine learning algorithms, including K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and Random Forest (RF). Furthermore, Bayesian optimization is employed to fine-tune model performance.
 
-Results
+## Results
+
 Promising outcomes are witnessed in our approach, yielding an accuracy of 98%. This underscores the potential of our methodology in effectively categorizing wandering patterns linked to dementia cases. Our results offer valuable insights into the contribution of advanced data analysis and machine learning techniques to the realm of dementia research and caregiving.
 
-Files in this Repository
+## Files in this Repository
+
 Please provide a brief description of the files pushed to this repository.
 
-How to Run the Code
+## How to Run the Code
+
 Please provide instructions on how to run the code in this repository.
 
-Dependencies
+## Dependencies
+
 Please list any dependencies required to run your code.
 
-Contact
+## Contact
+
 For any queries, please contact the authors of the paper.
