@@ -18,15 +18,44 @@ Promising outcomes are witnessed in our approach, yielding an accuracy of 98%. T
 
 ## Files in this Repository
 
-Please provide a brief description of the files pushed to this repository.
+
+- `model_data/patterns_dataset.pkl`: This file contains the datasets used in this project.
+- `models_analysis/`: This directory contains the support code used to automating the model evaluation 
+  - `bo_models_evaluation.py`: This script is used for defining functions to apply while the bayesian optimization.
+  - `classic_models_evaluation.py`: This script contains the machine learning models (KNN, SVM, RF) and the Bayesian optimization process.
+  - `raw_scaled_data.py`: This script is used for data preprocessing.
+  - `time_series_model.py`: This script define the TimeSeriesData class used for the analysis.
+  - `utils.py`: This script is used to graph a confusion matrix.
+  - `wave_scaled_data.py`: This script is used for feature extraction using Discrete Wavelet Transformation.
+- `2 Analysis Time Series Default Params.ipynb`: This Jupyter notebook contains the training and results of the models using their default params and raw data.
+- `3 Analysis Time Series Bayesian Optimization.ipynb`: This Jupyter notebook contains the training and results of the models after tunning their hyperparams using the Bayesian Optimization raw data.
+- `4 Analysis Time Series Signals.ipynb`: This Jupyter notebook contains the training and results of the models using the data after the feature extraction by using the Discrete Wavelet transformation 
+- `requirements.txt`: This file lists all the Python dependencies required to run the project.
 
 ## How to Run the Code
 
-Please provide instructions on how to run the code in this repository.
+1. Clone the repository to your local machine.
+
+```bash
+git clone https://github.com/DanielRR10/wandering-patterns-time-series.git
+```
+2. Navigate to the project directory.
+```bash
+cd wandering-patterns-time-series
+```
+3. Installl the required Python dependencies.
+```bash
+pip install -r requirements.txt
+```
+4. To run the Jupyter notebooks, start Jupyter notebook server in the project directory.
+```bash
+jupyter notebook
+```
+This will open a browser window. From there, you can select and run the notebooks
 
 ## Dependencies
 
-Please list any dependencies required to run your code.
+All dependencies are listed in the requirements.txt
 
 ## Contact
 
